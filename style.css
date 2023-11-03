@@ -1,12 +1,14 @@
 html {
-  font-size: 10px;
+  font-size: 1vw;
 }
 body {
   margin: 0;
-  font: 2rem sans-serif;
+  font: 1.2rem sans-serif;
   background-color: white;
   /* background-color: blue; */
   height: 100vh;
+  color: #143356;
+  /* box-sizing: border-box; */
 }
 h2,
 p {
@@ -15,12 +17,62 @@ p {
 .container {
   background-color: white;
   /* font-size: 0; */
-  margin: 4vw;
-  padding: 5rem;
+  margin: 2vw;
+  padding: 3rem 6rem;
   /* width: 100rem; */
   /* margin: auto; */
   /* min-height: 100vh; */
-  height: 65vw;
+  height: 55vw;
   border-radius: 2rem;
-  box-shadow: 4px 4px 8px 7px rgba(34, 60, 80, 0.12);
+  box-shadow: 0.4rem 0.4rem 0.8rem 0.7rem rgba(34, 60, 80, 0.2);
+}
+.header {
+  background-color: aqua;
+  position: relative;
+}
+.header__logo {
+  /* vertical-align: middle; */
+  /* width: fit-content; */
+  /* position: relative; */
+  /* vertical-align: middle; */
+  display: inline-block;
+  background-color: aqua;
+}
+.header__logo_img {
+  width: 2rem;
+  /* font-size: 2rem; */
+  /* border: 1px; */
+  /* border-color: #143356; */
+
+  /* background-image: url("./img/pumpkin.png"); */
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+  /* display: inline-block; */
+  vertical-align: middle;
+  background-color: gray;
+}
+.header__logo_text {
+  /* position: absolute; */
+  vertical-align: middle;
+  /* font-size: 1rem; */
+}
+.header__menu {
+  display: inline-block;
+  background-color: gray;
+  position: absolute;
+  /* margin: 0.3rem; */
+  right: 0;
+}
+.header-menu__items {
+  display: inline-block;
+}
+.header-menu-items__item {
+  display: inline-block;
+}
+.header-menu__buttons {
+  display: inline-block;
+  vertical-align: middle;
+}
+.header-menu-buttons__button {
+  width: 2rem;
 }
